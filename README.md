@@ -3,9 +3,9 @@ Site internet de la société chateau-peyrines, productrice et vendeuse de vin
 
 ## What is it?
 Site internet de la société chateau-peyrines, productrice et vendeuse de vin
-##Why do we work on it?
+## Why do we work on it?
 Site créé en 2008 avec une techno flash, 12 ans après il est temps de lui donner un petit coup de frais
-##What will we do?
+## What will we do?
 ### Global
 3 Pages principales accessibles via Menu principal :
 
@@ -21,7 +21,7 @@ Résidence
 Témoignages
 
 ## Wath will we do for that?
-###Back-end
+### Back-end
 CONTROLEUR FRONTAL, l'accès public aux pages passe par une page unique
 CRUD : Le client doit pouvoir remplir lui même le contenu des pages :
 PRIX des vins de l'année, plusieurs type de vins, différents prix selon qu'ils soient achetés au château ou livrés. Ces données seront dynamiques, enregistrées dans une base de données.
@@ -34,10 +34,13 @@ créer une structure qui s'adaptera aux mobiles ainsi qu'aux plus large des term
 
 CONTENUS PAGES
 Chacune de ces pages est divisée en sous section, le contenu de ces pages peut-être copié depuis l'ancien site [chateau-peyrines.com](http://chateau-peyrines.com/), attention : Flash
+
 -Pour Ventes-prix
 Les sous-sections : 
 1-Prix Vente sur place,(dynamique)
+
 2-Prix Commande,(dynamique)
+
 3-Tournée,(dynamique)
 
 -Pour vignes-vins-elaboration
@@ -82,7 +85,9 @@ MENUS
  -Découpage de chaque page principale en sections, ces sections seront contenues par une section, ciblables via un id et pourvues d'un titre principale et d'au moins un article.
 
  PHP-repositories
+ 
  Un repertoire "pages" au premier niveau contiendra chaque page principale, ainsi qu'un fichier "menu-pageconcernée.php" qui sera également appelé par la page principale si nécessaire.
+ 
  Un répertoire "files" au premier niveau, contiendra les éléments récurrents inclus dans chaque page principale(header.php, footer.php, nav.php).
  Un répertoire "images", au premier niveau, contiendra les images appelées par les pages.
  Un répertoire "css", au premier niveau, contiendra les CSS nécessaires a la mise en style des pages.
