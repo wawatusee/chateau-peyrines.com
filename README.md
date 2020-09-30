@@ -37,11 +37,12 @@ Chacune de ces pages est divisée en sous section, le contenu de ces pages peut-
 
 -Pour Ventes-prix
 Les sous-sections : 
-1-Prix Vente sur place,(dynamique)
 
-2-Prix Commande,(dynamique)
+1.Prix Vente sur place,(dynamique)
 
-3-Tournée,(dynamique)
+2.Prix Commande,(dynamique)
+
+3.Tournée,(dynamique)
 
 -Pour vignes-vins-elaboration
 Les sous-sections :
