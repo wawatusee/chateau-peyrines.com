@@ -53,7 +53,7 @@ Les sous-sections :
 
 -Pour vignes-vins-elaboration
 
-Les sous-sections :
+#### Les sous-sections :
 
 - Vins rouges
 
@@ -69,7 +69,7 @@ Les sous-sections :
 
 
 -Pour Presentation-histoire-famille
-Les sous-sections :
+#### Les sous-sections :
 
 - Situation
 
@@ -79,7 +79,7 @@ Les sous-sections :
 
 
 -Other stuffs that we have to put in :
-Juridique :
+#### Juridique :
 - Avertissement alcool
 
 - Protection mineurs
@@ -88,7 +88,7 @@ Juridique :
 
 - Mentions legales
 
-MENUS
+## MENUS
 2 menus pour accéder aux 2 niveaux d'arborescence du site :
 -Menu principal qui donne accès à chacune des 3 pages principales
 
