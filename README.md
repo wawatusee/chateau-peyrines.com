@@ -51,38 +51,38 @@ Les sous-sections :
 
 Les sous-sections :
 
--Vins rouges
+- Vins rouges
 
--Vins blancs
+- Vins blancs
 
--Conseils
+- Conseils
 
--Culture 
+- Culture 
 
--le chai 
+- le chai 
 
--La cave
+- La cave
 
 
 -Pour Presentation-histoire-famille
 Les sous-sections :
 
--Situation
+- Situation
 
--Famille
+- Famille
 
--Historique
+- Historique
 
 
 -Other stuffs that we have to put in :
 Juridique :
--Avertissement alcool
+- Avertissement alcool
 
--Protection mineurs
+- Protection mineurs
 
--Prix valables jusqu'au
+- Prix valables jusqu'au
 
--Mentions legales
+- Mentions legales
 
 MENUS
 2 menus pour accéder aux 2 niveaux d'arborescence du site :
@@ -117,15 +117,15 @@ MENUS
  
  Un repertoire "pages" au premier niveau contiendra chaque page principale, ainsi qu'un fichier "menu-pageconcernée.php" qui sera également appelé par la page principale si nécessaire.
  
- -Un répertoire "files" au premier niveau, contiendra les éléments récurrents inclus dans chaque page principale(header.php, footer.php, nav.php).
+ - Un répertoire "files" au premier niveau, contiendra les éléments récurrents inclus dans chaque page principale(header.php, footer.php, nav.php).
  
- -Un répertoire "images", au premier niveau, contiendra les images appelées par les pages.
+ - Un répertoire "images", au premier niveau, contiendra les images appelées par les pages.
  
 - Un répertoire "css", au premier niveau, contiendra les CSS nécessaires a la mise en style des pages.
 
- -Un répertoire "JS", au premier niveau contiendra les fichiers JS nécessaires au fonctionnement des pages.
+ - Un répertoire "JS", au premier niveau contiendra les fichiers JS nécessaires au fonctionnement des pages.
  
- -Un répertoire "files-graphic", au premier niveau, contiendra les éléments graphiques récurrents nécessaires au bon fonctionnement de notre site(images-boutons, logo, sprites).
+ - Un répertoire "files-graphic", au premier niveau, contiendra les éléments graphiques récurrents nécessaires au bon fonctionnement de notre site(images-boutons, logo, sprites).
  
 
  Chaque page sera optimisée en incorporant les éléments récurrent sous forme d'include((header.php, footer.php, nav.php), ATTENTION, certains éléments de ces morceaux seront remplis dynamiquement, prendre en compte le contexte grace au $GET.
@@ -133,7 +133,7 @@ MENUS
  ### CONTENUS
  Chaque page contient des sections qui correspondent à chaque menu secondaire, ces sections contienent :
  
- -Un titre (h2),
+ - Un titre (h2),
  
- -un article(article)
+ - un article(article)
  
