@@ -22,11 +22,12 @@ Témoignages
 
 ## Wath will we do for that?
 ### Back-end
-CONTROLEUR FRONTAL, l'accès public aux pages passe par une page unique
-CRUD : Le client doit pouvoir remplir lui même le contenu des pages :
-PRIX des vins de l'année, plusieurs type de vins, différents prix selon qu'ils soient achetés au château ou livrés. Ces données seront dynamiques, enregistrées dans une base de données.
+**CONTROLEUR FRONTAL**, l'accès public aux pages passe par une page unique
 
-TOURNEE, chaque année, le représentant de Chateau-Peyrines organise une tournée en France, les dates de cette tournée et les éléments de chaque événement seront dynamiques, enregistrées dans une base de données.
+**CRUD** : Le client doit pouvoir remplir lui même le contenu des pages :
+**PRIX** des vins de l'année, plusieurs type de vins, différents prix selon qu'ils soient achetés au château ou livrés. Ces données seront dynamiques, enregistrées dans une base de données.
+
+**TOURNEE**, chaque année, le représentant de Chateau-Peyrines organise une tournée en France, les dates de cette tournée et les éléments de chaque événement seront dynamiques, enregistrées dans une base de données.
 
 ### Front-end
 STRUCTURES PAGES
@@ -36,7 +37,7 @@ Pour les 3 pages principales:
 - Presentation-histoire-famille),
 créer une structure qui s'adaptera aux mobiles ainsi qu'aux plus large des terminaux.
 
-CONTENUS PAGES
+## CONTENUS PAGES
 Chacune de ces pages est divisée en sous section, le contenu de ces pages peut-être copié depuis l'ancien site [chateau-peyrines.com](http://chateau-peyrines.com/), attention : Flash
 
 
