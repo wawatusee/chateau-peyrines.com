@@ -138,9 +138,9 @@ Chacune de ces pages est divisée en sous section, le contenu de ces pages peut-
  Chaque page sera optimisée en incorporant les éléments récurrent sous forme d'include((header.php, footer.php, nav.php), ATTENTION, certains éléments de ces morceaux seront remplis dynamiquement, prendre en compte le contexte grace au $GET.
 
  ### CONTENUS
- Chaque page contient des sections qui correspondent à chaque menu secondaire, ces sections contienent :
+ Chaque page contient des sections qui correspondent à chaque menu secondaire, ces sections contiennent :
  
  - Un titre (h2),
  
- - un article(article)
+ - au moins un article(article)
  
