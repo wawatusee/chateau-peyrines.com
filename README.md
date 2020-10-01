@@ -117,7 +117,7 @@ Chacune de ces pages est divisée en sous section, le contenu de ces pages peut-
  -Gabarits pages principales, responsive : DISPLAY-GRID. Qui correspondent aux trois pages principales(Ventes-prix, vignes-vins-elaboration, Presentation-histoire-famille)
  Nous y retrouverons des éléments standarts : header, nav, main et footer.
  
- -Découpage de chaque page principale en sections, ces sections seront contenues par une section, ciblables via un id et pourvues d'un titre principale et d'au moins un article.
+ -Découpage de chaque page principale en sections, ces sections seront contenues par des balise section, ciblables via un id et pourvues d'un titre principale et d'au moins un article.
 
 
  PHP-repositories
