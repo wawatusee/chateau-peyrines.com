@@ -44,7 +44,7 @@ Chacune de ces pages est divisée en sous section, le contenu de ces pages peut-
 
 -Pour Ventes-prix
 
-Les sous-sections : 
+### Les sous-sections : 
 
 1.Prix Vente sur place,(dynamique)
 
