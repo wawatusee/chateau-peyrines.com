@@ -91,6 +91,7 @@ Les sous-sections :
 
 ## MENUS
 2 menus pour accéder aux 2 niveaux d'arborescence du site :
+
 -Menu principal qui donne accès à chacune des 3 pages principales
 
 -Menu secondaire qui donne accès à chacune des sections dans la page, sans recharger la page
