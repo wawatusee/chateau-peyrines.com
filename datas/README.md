@@ -21,6 +21,7 @@ l'assemblage de celles-ci nous donneraient alors ces tables composites :
 à ce stade nous aurions peut-être la possibilité d'afficher le prix de chaque produit.
 
 Accessoirement nous pourrion alors nous préoccuper d'attribuer à chacun de ces vins :
+
 . Une ***couleur*** : blanc, rosé ou rouge
 
 . Une ***médaille*** quand il le mérite
