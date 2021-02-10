@@ -1,0 +1,19 @@
+Petit correctif par rapport au travail à réaliser cette semaine.
+Il vous est demandé en plus, du contrôleur frontal et du dispositif de login/logout (connexion-déconnexion), 
+de réaliser le CRUD pour gérer la liste des magasins à utiliser plus tard sur la carte interactive.
+Comme nous l'avons vu lundi, vous aurez besoin d'ajouter dans la table "magasins" deux nouveaux champs pour stocker la longitude et la latitude.
+Pour ces ajouts de dernière minute, on vous prolonge le délai de remise du travail.
+Merci d'envoyer à votre référent (voir #général-cours) ce travail pour lundi 26/10 au plus tard (sur votre FTP ou sur votre GitHub)(modifié)
+[11:43]
+@everyone 
+Certains parmi vous ont demandé à avoir une vision long-terme sur le projet pour pouvoir mieux s'organiser plutôt que d'annoncer semaine après semaine. Voici donc le planning complet: 
+- Pour lundi 26/10/2020 : contrôleur frontal, dispositif de login/logout (connexion-déconnexion), et CRUD pour gérer les magasins
+- Pour lundi 2/11/2020 : CRUD catégories et CRUD produits
+- Pour lundi 9/11/2020 : avoir terminé tout le back-end (tous les CRUD et l'upload d'images)
+- Pour vendredi 13/11/2020 : avoir terminé tout le site (front-end et carte interactive)
+- Présentation du projet aux autres stagiaires pour le lundi 16/11/2020 (FIN du projet)
+
+Ces dates sont données à titre indicatif, si vous avez terminé plus tôt une partie, vous pouvez commencer une autre pour vous avancer, et ne pas y aller date par date pour se retrouver à court de temps à la fin (seulement 4 jours pour le front-end).
+
+Merci d'envoyer à votre référent votre travail au fur et à mesure (sur votre FTP ou sur votre GitHub).
+Bon travail !

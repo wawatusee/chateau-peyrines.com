@@ -1,0 +1,117 @@
+/*Structure*/
+
+.header-space {
+    grid-area: header;
+}
+
+.menu-space {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+}
+
+.right {
+    grid-area: right;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header' 'menu menu menu menu menu menu' 'main main main main main main' 'footer footer footer footer footer footer ';
+    grid-gap: 10px;
+}
+
+
+/*Menu*/
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	body{padding-top:0px}
+}
+
+.menu-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.btnMainMenu {
+    color: black;
+    /*background-color: #fdfdf3;*/
+    border-bottom: 12px solid #fdfdf3;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    font-family: "marbreSans";
+}
+
+.btnMainMenu:hover {
+    color: black;
+    background-color: #fdfdf3;
+}
+
+
+/*Main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*ESTHETIC*/
+
+
+/*Titres*/
+
+@font-face {
+    font-family: 'marbreSans';
+    src: url('Marbre_Sans.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2 {
+    font-family: "marbreSans";
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.grid-container {
+    background-color: #fdfdf3;
+}
+
+.grid-container>div {
+    background-color: #89a3ea;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.debug {
+    background-color: pink;
+    color: brown;
+}
+
+
+/*Ventes tarifs*/
+
+.ligneTarif {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8a364f;
+}
+
+.prix {
+    background-color: rgb(235, 204, 70);
+    display: inline;
+}
