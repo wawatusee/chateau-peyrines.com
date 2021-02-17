@@ -5,6 +5,6 @@
 	<!--<link rel="stylesheet" href="css/custom.min.css" media="screen">-->
 	<link href="css/style.css" rel="stylesheet" media="all" type="text/css">
     <title>
-        <?php echo 'Catalog-admin-'.$titre; ?>
+        <?php echo 'Chateau-peyrines-admin-'.$titre; ?>
     </title>
 </head>
