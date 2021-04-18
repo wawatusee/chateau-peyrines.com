@@ -1,0 +1,63 @@
+/**/Par pierre vue vin complet
+CREATE VIEW vincomplet
+AS
+SELECT vins.nom,vins.annee,types.nom,apellation.apellationcol
+FROM `vins` 
+JOIN types ON types.idtypes=vins.types_idtypes 
+JOIN apellation ON apellation.idapellation=vins.
+
+/*Par André vin complet
+
+select `catalogue_ventes_vins`.`vins`.`nom` AS `vinNom`,
+`catalogue_ventes_vins`.`vins`.`annee` AS`annee`,
+`catalogue_ventes_vins`.`types`.`nom` AS `typeNom`,
+`catalogue_ventes_vins`.`apellation`.`apellationcol` AS `apellationcol`
+ from ((`catalogue_ventes_vins`.`vins`
+ join `catalogue_ventes_vins`.`types`
+ on(`catalogue_ventes_vins`.`types`.`idtypes` = `catalogue_ventes_vins`.`vins`.`types_idtypes`)) 
+join `catalogue_ventes_vins`.`apellation`
+ on(`catalogue_ventes_vins`.`apellation`.`idapellation` = `catalogue_ventes_vins`.`vins`.`apellation_idapellation`))
+
+/**/
+-Insérer un élément dans une table conditionnement:
+
+INSERT INTO `conditionnement`( `nom`) VALUES ('Cubitainer par 1 ou 2 colis')
+
+/*
+/*Par Kieran */
+/*Vue de tous les tarifs de vins*/
+CREATE VIEW tarif_vins_view
+AS
+SELECT vins.nom as chateau,
+ types.nom as couleur,
+ annee,
+ apellation.apellationcol,
+ conditionnement.nom as remise,
+ tarifs_vins.prix as prix_unitaire
+ from  vins
+LEFT JOIN tarifs_vins
+ON vins.idvins=tarifs_vins.vins_idvins
+ LEFT JOIN apellation
+ON vins.apellation_idapellation=apellation.idapellation
+left JOIN types
+ON vins.types_idtypes=types.idtypes
+LEFT JOIN conditionnement
+ON tarifs_vins.conditionnement_idcontenants=conditionnement.idconditionnement
+
+/*Selection par conditionnement*/
+SELECT vins.nom as chateau,
+ types.nom as couleur,
+ annee,
+ apellation.apellationcol,
+ conditionnement.nom as remise,
+ tarifs_vins.prix as prix_unitaire
+ from  vins
+LEFT JOIN tarifs_vins
+ON vins.idvins=tarifs_vins.vins_idvins
+ LEFT JOIN apellation
+ON vins.apellation_idapellation=apellation.idapellation
+left JOIN types
+ON vins.types_idtypes=types.idtypes
+LEFT JOIN conditionnement
+ON tarifs_vins.conditionnement_idcontenants=conditionnement.idconditionnement
+WHERE conditionnement.nom='36 btl et +'OR conditionnement.nom='60 btl et +'OR conditionnement.nom='120 btl et +'

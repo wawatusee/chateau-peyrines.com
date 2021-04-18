@@ -1,0 +1,14 @@
+<?php
+/*
+ * Config file
+ */
+define('DB_HOST', 'sqlgold.webmo.fr');
+define('DB_USERNAME', 'web2020kieran');
+define('DB_PWD', 'RumkZjWQzqYp');
+define('DB_NAME', 'web2020kieran');
+define('DB_PORT', 48614);
+define('DB_CHARSET', 'utf8');
+define('PAGE_ARRAY',array('accueil','vente-tarifs','vins-vignes','Presentation','tournee','admin'));
+define('HORS_MENU',array('admin'));
+/*Le tableau ci-dessus aurait du contenir ces mots mais c'est trop long pour un menu : 'accueil','ventes-prix','vignes-vins-elaboration','Presentation-histoire-famille','tournee','administration'*/
+?>
