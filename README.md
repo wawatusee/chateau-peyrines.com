@@ -9,12 +9,12 @@ Site créé en 2008 avec une techno flash, 12 ans après il est temps de lui don
 ### Global
 3 Pages principales accessibles via Menu principal :
 
--Ventes-prix
--Vinification-vignes-vins
--Presentation-histoire-famille
+-Accueil(présentation de l'activité, mode d'empoi du site rapide)
+-Vins-tarifs
+-A propos
 
 Hors pages principales, accessibles sans quitter la page en cours :
-Contacts
+Contacts : tel fixe, adresse, envoi de mail, 
 
 Liens vers pages externes :
 Résidence
@@ -114,7 +114,7 @@ Chacune de ces pages est divisée en sous section, le contenu de ces pages peut-
  
  
  HTML-CSS
- -Gabarits pages principales, responsive : DISPLAY-GRID. Qui correspondent aux trois pages principales(Ventes-prix, vignes-vins-elaboration, Presentation-histoire-famille)
+ -Gabarits pages principales, responsive : DISPLAY-GRID. Qui correspondent aux trois pages principales(Accueil, vignes-vins-tarifs, A propos)
  Nous y retrouverons des éléments standarts : header, nav, main et footer.
  
  -Découpage de chaque page principale en sections, ces sections seront contenues par des balise section, ciblables via un id et pourvues d'un titre principale et d'au moins un article.
