@@ -42,35 +42,29 @@ créer une structure qui s'adaptera aux mobiles ainsi qu'aux plus large des term
 Chacune de ces pages est divisée en sous section, le contenu de ces pages peut-être copié depuis l'ancien site [chateau-peyrines.com](http://chateau-peyrines.com/), attention : Flash
 
 
--Pour Ventes-prix
+-Pour Accueil
 
 #### Les sous-sections : 
 
-1.Prix Vente sur place,(dynamique)
-
-2.Prix Commande,(dynamique)
-
-3.Tournée,(dynamique)
+- Activité
+- Descriptif des autres rubriques
 
 
--Pour vignes-vins-elaboration
+-Pour vins-tarifs
 
 #### Les sous-sections :
 
 - Vins rouges
-
 - Vins blancs
+- Vins rosés
 
-- Conseils
-
-- Culture 
-
-- le chai 
-
-- La cave
+Chaque vin disposera de sa propre présentation dans laquelle sera mis à disposition
+- ces prix selon mode d'achat
+- un accès à un descriptif technique du vin, 
+- une description des sensations qu'il procure et de ses qualités
 
 
--Pour Presentation-histoire-famille
+-Pour Récoltants
 #### Les sous-sections :
 
 - Situation
